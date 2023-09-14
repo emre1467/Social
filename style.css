@@ -1,0 +1,57 @@
+*{
+    text-align: center;
+}
+body{
+    background-color:#343a40 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ced4da;
+}
+.container{
+    text-align: center;
+    display: flex;
+    margin: 0;;
+    max-width: 1000px;
+}
+.box{
+    background-color: #343a40;
+    justify-content: space-between;
+    flex: 1;
+    margin: 50px;
+    padding: 10px 30px;
+    border: 3px solid gray ;
+    transition: transform 0.5s ease;
+}
+#Facebook:hover {
+    background-color: #4ea8de; 
+    color:#343a40 ;
+    cursor: pointer;
+    transform: scale(1.2);
+    border:#4ea8de ;
+    box-shadow:
+    0 5px 10px #4ea8de, /* Üst kenar */
+    0 -5px 10px #4ea8de, /* Alt kenar */
+    5px 0 10px #4ea8de, /* Sağ kenar */
+    -5px 0 10px #4ea8de; /* Sol kenar */
+  }#İnstagram:hover {
+    background-color: #f15bb5; 
+    color:#343a40 ;
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow:
+    0 5px 10px #f15bb5, /* Üst kenar */
+    0 -5px 10px #f15bb5, /* Alt kenar */
+    5px 0 10px #f15bb5, /* Sağ kenar */
+    -5px 0 10px #f15bb5; /* Sol kenar */
+  }#Twitter:hover {
+    background-color: #98c1d9; 
+    color:#343a40 ;
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow:
+    0 5px 10px #98c1d9ed, /* Üst kenar */
+    0 -5px 10px #98c1d9, /* Alt kenar */
+    5px 0 10px #98c1d9, /* Sağ kenar */
+    -5px 0 10px #98c1d9; /* Sol kenar */
+  }
